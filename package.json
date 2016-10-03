@@ -1,14 +1,14 @@
 {
   "name": "helloworldnpmmodule",
-  "version": "0.1.0",
-  "description": "This is npm module published as part of Jira Task DCES-4173803",
+  "version": "1.1.0",
+  "description": "This is sample npm module published as part of Task",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.corp.adobe.com/srustagi/HelloWorldNpmModule.git"
+    "url": "git://github.com/sajalrustagi/HelloWorldNpmModule.git"
   },
   "keywords": [
     "\"hello",
@@ -18,7 +18,7 @@
   ],
   "author": "Sajal Rustagi <srustagi@adobe.com> (http://google.com)",
   "license": "UNLICENSED",
-  "devDependencies": {
+  "dependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.0"
   }
